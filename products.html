@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shop Our Collection</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <section id="products-container">
+        <div id="products">
+            <!-- Sample Preloaded Products -->
+            <div class="product">
+                <img src="images/shirt.jpg" alt="Men's T-Shirt">
+                <h3>Men's T-Shirt</h3>
+                <p>$20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/dress.jpg" alt="Women's Dress">
+                <h3>Women's Dress</h3>
+                <p>$35.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/jacket.jpg" alt="Men's Jacket">
+                <h3>Men's Jacket</h3>
+                <p>$50.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/shoes.jpg" alt="Women's Shoes">
+                <h3>Women's Shoes</h3>
+                <p>$40.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/kidshoodie.jpg" alt="Kids Hoodie">
+                <h3>Kids Hoodie</h3>
+                <p>$30.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="pagination">
+        <button id="prev" disabled>Previous</button>
+        <span id="page-info">Page 1 of 5</span>
+        <button id="next">Next</button>
+    </div>
+
+    <script src="data/products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
